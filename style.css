@@ -1,7 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-  border: #1a2236 solid;
   background-image: url(images/image_geometry_1.png);
   background-repeat: no-repeat;
   margin: 0;
@@ -52,4 +51,10 @@ h1 {
   background: #1a2236;
   color: #fff;
   margin-bottom: 32px;
+}
+
+.imagebox {
+  display: block;
+  height: 160px;
+  background-image: url(images/image_geometry_2.png);
 }
