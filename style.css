@@ -2,7 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 320px;
-    im
+    background-image:url(images/image_geometry_1.png);
+    background-repeat: no-repeat;
 }
 
 #toolbar {
@@ -20,6 +21,7 @@ h1 {
   padding: 16px;
   padding-bottom: 0;
   margin: 0;
+  margin-top: 40px;
 }
 
 #headline {
