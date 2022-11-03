@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   border: #1a2236 solid;
   background-image: url(images/image_geometry_1.png);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   margin: 0;
 }
 
