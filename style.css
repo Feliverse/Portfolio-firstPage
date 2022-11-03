@@ -1,9 +1,9 @@
 body {
-    display: flex;
-    flex-direction: column;
-    max-width: 320px;
-    background-image:url(images/image_geometry_1.png);
-    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  background-image:url(images/image_geometry_1.png);
+  background-repeat: no-repeat;
 }
 
 #toolbar {
