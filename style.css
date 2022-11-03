@@ -1,9 +1,10 @@
 body {
   display: flex;
   flex-direction: column;
-  max-width: 320px;
+  border: #1a2236 solid;
   background-image: url(images/image_geometry_1.png);
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
+  margin: 0;
 }
 
 #toolbar {
@@ -15,7 +16,6 @@ body {
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 50px;
-  font-weight: 400;
   line-height: 100%;
   width: 200px;
   padding: 16px;
@@ -44,15 +44,11 @@ h1 {
 }
 
 .blackBoton {
+  justify-content: center;
   margin: 16px;
-  width: 288px;
+  width: 90%;
   height: 50px;
   background: #1a2236;
   color: #fff;
-}
-
-.art {
-  display: flex;
-  max-width: 360px;
-  margin-top: 15px;
+  margin-bottom: 32px;
 }
