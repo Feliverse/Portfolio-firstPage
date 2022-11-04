@@ -73,17 +73,13 @@ h2 {
   background: #fff;
 }
 
-.projects {
- 
-}
-
 .pData {
   width: 304px;
   height: 156px;
   left: 0px;
   top: 940px;
   background: #1A2236;
-  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  border: 0.033333px solid rgba(255, 255, 255, 0.1);
   padding-left: 16px;
 }
 
