@@ -76,9 +76,9 @@ h2 {
 .pData {
   width: 304px;
   height: 156px;
-  left: 0px;
+  left: 0;
   top: 940px;
-  background: #1A2236;
+  background: #1a2236;
   border: 0.033333px solid rgba(255, 255, 255, 0.1);
   padding-left: 16px;
 }
@@ -93,10 +93,10 @@ h3 {
 }
 
 .projectUl {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 10.3334px; 
+  font-size: 10.3334px;
   list-style-type: none;
   padding: 0;
   padding-left: 0;
