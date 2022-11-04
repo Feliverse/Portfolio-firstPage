@@ -64,22 +64,26 @@ h2 {
   font-size: 50px;
   font-weight: 400;
   line-height: 150%;
-  width: 200px;
+  width: 320px;
   padding: 16px;
   padding-bottom: 0;
   padding-top: 0;
   margin: 0;
   margin-top: 40px;
+  background: #fff;
+}
+
+.projects {
+ 
 }
 
 .pData {
-  width: 320px;
+  width: 304px;
   height: 156px;
   left: 0px;
   top: 940px;
   background: #1A2236;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
-  
   padding-left: 16px;
 }
 
@@ -101,6 +105,7 @@ h3 {
   padding: 0;
   padding-left: 0;
   margin-bottom: 0;
+  width: 314px;
 }
 
 .projectLi {
@@ -109,13 +114,15 @@ h3 {
   float: left;
   text-align: center;
   margin-right: 10px;
-  padding: 3px;
+  padding: 6px;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
 }
 
 .see {
   background: none;
   border: #fff solid 0.5px;
-  margin-top: 26px;
+  margin-top: 20px;
   padding-top: 8px;
   padding-bottom: 8px;
 }
@@ -132,3 +139,53 @@ h3 {
   margin-top: 0;
   padding-top: 0;
 }
+
+.boxL {
+  padding: 16px;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.Box {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 0;
+  padding-left: 50px;
+  width: 241px;
+  height: 290px;
+}
+
+.lan {
+  background-image: url(images/lfs/back/blue.png);
+  background-size: contain;
+}
+
+.fra {
+  background-image: url(images/lfs/back/red.png);
+  background-size: contain;
+  margin-top: 0;
+}
+
+.ski {
+  background-image: url(images/lfs/back/yellow.png);
+  background-size: contain;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff ;
+}
+
+.inBox {
+  color: #fff;
+  list-style-position: inside;
+  font-weight: ;
+}
+
+
