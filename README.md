@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile first
+# Portfolio: Felipe Haybar
 
 First Portfolio modeling to mobile
 
