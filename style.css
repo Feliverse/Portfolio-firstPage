@@ -59,6 +59,13 @@ h1 {
   background-image: url(images/image_geometry_2.png);
 }
 
+.gallery {
+  display: grid;
+  grid: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
 h2 {
   font-family: 'Playfair Display', serif;
   font-size: 50px;
@@ -115,6 +122,10 @@ h3 {
   padding-bottom: 1.5px;
 }
 
+.imgp {
+  display: block;
+}
+
 .see {
   background: none;
   border: #fff solid 0.5px;
@@ -139,8 +150,9 @@ h3 {
 .boxL {
   padding: 16px;
   font-family: 'Poppins', sans-serif;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-auto-rows: 19.2rem;
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
 }
 
 .Box {
@@ -156,6 +168,7 @@ h3 {
 .lan {
   background-image: url(images/lfs/back/blue.png);
   background-size: contain;
+  margin-top: 0;
 }
 
 .fra {
@@ -180,4 +193,15 @@ h4 {
 .inBox {
   color: #fff;
   list-style-position: inside;
+}
+
+button {
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(255, 72, 0, 0.945);
+  border-color: orange;
+  border-width: 0.3rem;
 }
