@@ -202,6 +202,6 @@ button {
 
 button:hover {
   background: rgba(255, 72, 0, 0.945);
-  border-color: orange;
+  border-color: rgba(255, 166, 0, 0.932);
   border-width: 0.3rem;
 }
