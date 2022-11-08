@@ -2,7 +2,7 @@
 
 # Portfolio: Felipe Haybar
 
-First Portfolio modeling to mobile
+First Portfolio modeling to mobile adding a footer section
 
 ## Built With
 
