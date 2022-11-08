@@ -78,6 +78,7 @@ h2 {
   margin: 0;
   margin-top: 40px;
   background: #fff;
+  background-color: transparent;
 }
 
 .pData {
@@ -204,4 +205,37 @@ button:hover {
   background: rgba(255, 72, 0, 0.945);
   border-color: rgba(255, 166, 0, 0.979);
   border-width: 0.3rem;
+}
+
+footer {
+  background-image: url(images/image_geometry_1.png);
+  background-repeat: no-repeat;
+  height: 813px;
+}
+
+.space {
+  height: 106px;
+}
+
+.boxForm {
+
+}
+
+.contenedor {
+  background: #1a2236;
+}
+.rsFooter {
+  float: left;
+  background: #1a2236;
+  text-align: center;
+  margin: 0;
+  margin-top: 40px;
+  width: 260px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rrss {
+  background-color: #1a2236;
 }
