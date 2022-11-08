@@ -239,3 +239,19 @@ footer {
 .rrss {
   background-color: #1a2236;
 }
+.form-name{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 46px;
+  margin: 10px;
+}
+.form-name-contend{
+  border: none;
+}
+
+.form-text{
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #dfdfe0;
+}
