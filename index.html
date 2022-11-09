@@ -117,7 +117,8 @@
             <h2>About</h2>
             <p class="textAbout">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
                 <button class="blackBoton">
-                    <a class="textBoton" href="#"> Get my CV  ↓</a>
+                    <a class="textBoton" href="#"> Get my CV </a>
+                    <img class="get-my-resume-image" src="./images/ic_download.svg">
                 </button>
             <div class="boxL">
                 <ul class="Box lan">
@@ -148,29 +149,32 @@
     </section>  
     <footer>
         <div class="space"></div>
-        <h2>Get started</h2>
+        <h2 class="getStar">Get started</h2>
         <p id="headline">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
-        <form class="boxL">
+        <form class="b" 
+        action="https://formspree.io/f/xnqrlgak" method="post">
             <div class="boxForm">
-                <label class="form-name" for="name"> Enter your name
-                    <input class="form-name-contend" type="text" id="name" name="user-name" maxlength="30" placeholder="enter full name">
+                <label class="form-name" for="name"> 
+                    your name
+                    <input class="form-name-contend" type="text" id="name" name="user-name" maxlength="30" placeholder="enter full name" required>
                 </label>
-                <label for="email">
-                    <input type="email" id="mail" name="user_email" placeholder="majekfelipeeldon@gmail.com">
+                <label class="form-name" for="email">
+                    your email
+                    <input class="form-name-contend" type="email" id="mail" name="user_email" placeholder="majekfelipeeldon@gmail.com" required>
                 </label>
                 <label for="msg">
-                    <textarea class="form-text" id="msg" name="user_message" maxlength="500" placeholder="Write your message here"  cols="30" rows="10" ></textarea>
+                    <textarea class="form-text" id="msg" name="user_message" maxlength="500" placeholder="Write your message here"  cols="30" rows="10" required></textarea>
                 </label>
                 </div>
             <div class="button">
                 <button class="blackBoton" type="submit">
-                    <a class="textBoton" href="#">Star collaboration></a>
+                    <a class="textBoton" href="#">Star collaboration</a>
                 </button>
             </div>
         </form>
-        <div class="contenedor">
-            <button class="see">
-                <a class="textBoton" href="#">Get my resume →</a>
+        <div class="contenfoo">
+            <button class="see resume">
+                <a class="textBoton resume">Get my resume <img class="get-my-resume-image" src="./images/Union (2).png"></a>
             </button>
             <ul class="rsFooter" >
                 <li class="rrss"><img src="images/redes sociales/Vector (3).png" alt="GitHUB link"> </li>
