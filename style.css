@@ -252,6 +252,19 @@ margin: 0;
   list-style: none;
 }
 
+#headline {
+  width: 288px;
+  height: 63px;
+  left: 16px;
+  top: 4305px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin-bottom: 20px;
+}
+
 .form-name{
   display: flex;
   flex-direction: column;
@@ -280,8 +293,9 @@ margin: 0;
   font-weight: 400;
   margin-left: 18px;
   margin-right: 18px;
-  min-width:  288px;
+  width:  260px;
 }
+
 
 .resume {
  border: transparent;
