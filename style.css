@@ -213,33 +213,21 @@ button:hover {
 
 /* footer form section */
 
-footer {
+.space {
+  height: 106px;
+}
+
+.formulary {
   background: #f9f9fa;
   background-image: url(images/image_geometry_1.png);
   background-repeat: no-repeat;
-  height: 813px;
-  margin: 0;
-}
-
-.space {
-  height: 106px;
 }
 
 .getStar {
   margin-top: 0;
   font-family: 'Playfair Display', serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 50px;
-  line-height: 100%;
-}
-
-form {
-  margin: 0;
-}
-
-.contenedor {
-  background: #1a2236;
 }
 
 .rsFooter {
@@ -287,9 +275,9 @@ form {
   font-style: normal;
   font-weight: 400;
   margin-left: 18px;
-  margin-right: 18px;
-  width: 89%;
   height: 90px;
+  min-width: 288px;
+  max-width: 400px;
   padding-left: 16px;
   padding-top: 8px;
 }
