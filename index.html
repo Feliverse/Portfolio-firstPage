@@ -4,28 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Felipe Haybar</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Responsive nav
+    mobile version -->
+
     <nav id="toolbar">
         <img src="images/ic_menu.svg" alt="Menu">
         <a href=""></a> 
     </nav>
-        <h1>Felipe Haybar</h1>
-    <section>
-        <p id="headline">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
-        <br>If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
-    
-        <button class="blackBoton">
-            <a class="textBoton" href="#">Start collaboration</a>
-        </button>
+
+    <!-- descktop version -->   
+
+    <header class="desk">
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Hello</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <!-- Responsive hello section
+    mobile version -->
+        
+    <section class="hello">
+        <div hello-text>
+          <h1>Felipe Haybar</h1>
+          <p id="headline">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
+          <br>If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
+          <button class="blackBoton">
+             <a class="textBoton" href="about">Start collaboration</a>
+          </button>
+        </div>
         <div class="imagebox"></div>
-        <section class="container">
-            <h2>Projects</h2>
+        <div class="bigimage"></div>
+    </section>
+
+
+    <!-- Responsive project section mobile version -->
+
+        <section class="Projects">
+            <h2 class="project-title">Projects</h2>
             <div class="gallery">
             <article class="card">
                 <img class="imgp" src="images/project1.png" alt="project1" width="320px">
@@ -149,8 +177,10 @@
     </section>  
     <section class="formulary">
         <div class="space"></div>
-        <h2 class="getStar">Get started</h2>
-        <p id="headline">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
+        <div class="form-header">
+            <h2 class="getStar">Get started</h2>
+            <p id="headline">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
+        </div>    
         <form class="b" action="https://formspree.io/f/xnqrlgak" method="post">
             <div class="boxForm">
                 <label class="form-name" for="name"> 
@@ -172,10 +202,13 @@
             </div>
         </form>
     </section> 
-        <footer class="contenfoo">
+    <footer class="contenfoo">
+        <div>
             <button class="see resume">
                 <a class="textBoton resume">Get my resume <img class="get-my-resume-image" src="./images/Union (2).png"></a>
             </button>
+        </div>
+        <div>
             <ul class="rsFooter" >
                 <li class="rrss"><img src="images/redes sociales/Vector (3).png" alt="GitHUB link"> </li>
                 <li class="rrss"><img src="images/redes sociales/Vector (4).png" alt="Twitter link"></li>
@@ -183,7 +216,8 @@
                 <li class="rrss"><img src="images/redes sociales/Vector (6).png" alt="M link"></li>
                 <li class="rrss"><img src="images/redes sociales/Vector (7).png" alt="RabitHand link"></li>
             </ul>
-        </footer>
+        </div>
+    </footer>
     
 </body>
 </html>

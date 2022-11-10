@@ -1,15 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  display: flex;
-  flex-direction: column;
   background-image: url(images/image_geometry_1.png);
   background-repeat: no-repeat;
-  margin: 0;
 }
 
 #toolbar {
   display: flex;
   justify-content: flex-end;
   margin: 16px;
+}
+
+.desk, 
+.bigmage {
+  display: none;
 }
 
 h1 {
@@ -19,9 +27,8 @@ h1 {
   line-height: 100%;
   width: 200px;
   padding: 16px;
-  padding-bottom: 0;
   margin: 0;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 #headline {
@@ -32,11 +39,9 @@ h1 {
   line-height: 21px;
   color: #1a2236;
   padding: 16px;
-  left: 16px;
-  top: 4305px;
   font-weight: 400;
   letter-spacing: -0.01em;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .textBoton {
@@ -72,35 +77,35 @@ h1 {
 
 h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 50px;
+  font-size: 3em;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 100%;
   width: 320px;
   padding: 16px;
   padding-bottom: 0;
   padding-top: 0;
-  margin: 0;
-  margin-top: 40px;
+  margin: 40px 0 2rem;
   background: #fff;
   background-color: transparent;
 }
 
+.card {
+width: 320px;
+}
+
 .pData {
-  width: 304px;
   height: 156px;
   left: 0;
   top: 940px;
   background: #1a2236;
-  border: 0.033333px solid rgba(255, 255, 255, 0.1);
   padding-left: 16px;
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 20px;
-  line-height: 80%;
+  line-height: 300%;
   color: #fff;
 }
 
@@ -108,7 +113,6 @@ h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 10.3334px;
   list-style-type: none;
   padding: 0;
   padding-left: 0;
@@ -127,16 +131,13 @@ h3 {
   padding-bottom: 1.5px;
 }
 
-.imgp {
-  display: block;
-}
+/*about section*/
 
 .see {
   background: none;
   border: #fff solid 0.5px;
   margin-top: 20px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 10px;
 }
 
 .textAbout {
@@ -166,8 +167,8 @@ h3 {
   justify-items: center;
   padding: 0;
   padding-left: 50px;
-  width: 241px;
-  height: 290px;
+  width: 289px;
+  height: 289px;
 }
 
 .lan {
@@ -301,3 +302,107 @@ label {
   border: none;
   background: #fff;
 }
+
+@media only screen and (min-width: 600px) {
+  /* Header */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #toolbar {
+    display: none;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .imagebox, .space {
+    display: none;
+  }
+  .desk {
+    display: block;
+    border-bottom: 1px solid #dddfe6;
+    line-height: 4;
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    
+  }
+
+  .menu a {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+    color: #1a2236;
+  }
+
+  .hello {
+    display: grid;
+    grid: 1rem;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    margin: 0 auto;
+    ;
+  }
+
+  h1 {
+      font-size: 8vw;
+  }
+  #headline {
+    font-size: 1.5vw;
+    line-height: 2;
+    height: fit-content;
+  }
+
+.hello-text {
+  display: flex;
+  flex-direction: column;
+}
+
+  .bigimage {
+    background-image: url("./images/image-big.png");
+    background-size: 100%;
+  }
+
+  .blackBoton {
+    width: 254px;
+  }
+
+  .project-title {
+    transform:rotate(180)
+  }
+
+  /*form responsive*/
+
+  .formulary {
+    background-image: 
+      url(images/image-geometry_6.png), 
+      url(images/image-geometry_7.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenfoo {
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
