@@ -202,6 +202,10 @@ h4 {
   list-style-position: inside;
 }
 
+.image-about {
+  display: none;
+}
+
 button {
   transition-duration: 0.5s;
   cursor: pointer;
@@ -213,17 +217,25 @@ button:hover {
   border-width: 0.3rem;
 }
 
-/* footer form section */
-
-.space {
-  height: 106px;
-}
+/* formulary section */
 
 .formulary {
   background: #f9f9fa;
   background-image: url(images/image_geometry_1.png);
   background-repeat: no-repeat;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.space {
+  height: 106px;
+}
+
+.cont-form {
+  width: 320px;
+  
 }
 
 .getStar {
@@ -305,7 +317,7 @@ label {
   background: #fff;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1280px) {
   /* Header */
 
   * {
@@ -445,25 +457,19 @@ h2 {
     align-items: center;
   }
 
-.form-header {
+.cont-form {
+  width: 40%;
   display: flex;
   flex-direction: column;
-  width: 40%;
-  align-items: center;
-  margin: 5vw auto 0;
 }
 
-.b {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 40%;
-  background: transparent;
+.form-header {
+ margin-top: 5em; 
 }
 
 .boxForm {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-template-rows: 1fr 1fr;
 }
 
@@ -477,7 +483,7 @@ h2 {
 }
 
 .getStar {
-  font-size: 5.21vw;
+  font-size: 4em;
 }
 
   .contenfoo {
