@@ -16,13 +16,14 @@ body {
 }
 
 .desk,
-.bigmage {
+.bigmage,
+.form-name-message p {
   display: none;
 }
 
 h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 50px;
+  font-size: 5em;
   font-weight: 400;
   line-height: 100%;
   width: 200px;
@@ -44,14 +45,6 @@ h1 {
   margin-bottom: 40px;
 }
 
-.textBoton {
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  color: #fff;
-  text-align: center;
-}
-
 .blackBoton {
   justify-content: center;
   margin: 16px;
@@ -60,6 +53,11 @@ h1 {
   background: #1a2236;
   color: #fff;
   margin-bottom: 32px;
+
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-align: center;
 }
 
 .imagebox {
@@ -149,6 +147,11 @@ h3 {
   border: #fff solid 0.5px;
   margin-top: 20px;
   padding: 10px;
+  color: #dddfe6;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-align: center;
 }
 
 .textAbout {
@@ -218,14 +221,19 @@ h4 {
 }
 
 button {
-  transition-duration: 0.5s;
+  transition-duration: .4s;
   cursor: pointer;
 }
 
 button:hover {
-  background: rgba(255, 72, 0, 0.945);
-  border-color: rgba(255, 72, 0, 0.945);
-  border-width: 0.3rem;
+  background: #fff;
+  border-color: black;
+  border-width: 1px;
+  color: #1a2236;
+}
+
+button:active {
+  border-width: 4px;
 }
 
 /* formulary section */
@@ -404,6 +412,24 @@ label {
     width: 254px;
   }
 
+  .see {
+    transition-duration: .4s;
+    cursor: pointer;
+    background: #fff;
+    color: #1a2236;
+  }
+  
+  .see:hover {
+    background: #1a2236;
+    border-color: #fff;
+    border-width: 1px;
+    color: #fff;
+  }
+  
+  .see:active {
+    border-width: 2px;
+  }
+
   /* project section descktop */
 
   .projects {
@@ -426,7 +452,8 @@ label {
 
   .card4,
   .card7,
-  .card8 {
+  .card8,
+  .form-name-message p {
     display: block;
   }
 
@@ -608,13 +635,12 @@ label {
   }
   
   .getStar {
-    font-size: 6.5em;
+    font-size: 6.4em;
     width: 100%;
     text-align: center;
   }
   
   .form-hello {
-    background: #92dcdc;
     width: 548px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -641,7 +667,38 @@ label {
     width: 548px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 35px;
+  }
+
+  .form-name  {
+    border: none;
+    background: none;
+    margin: 60px 0;
+    padding: 0;
+    line-height: 2;
+    font-size: 12px;
+    margin-bottom: 42px;
+  }
+
+  .form-name-contend {
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+  }
+
+  .form-name-message {
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 18px;
+    color: 7d7c84;
   }
 
   .boxForm label:nth-child(3) {
@@ -655,14 +712,25 @@ label {
     margin: 0;
     min-width: none;
     max-width: none;
+    height: 115px;
+    padding: 18px auto auto 20px;
+    font-size: 16px;
   }
 
- 
-
-  .contenfoo {
+  .botonform {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-form {
+    height: 70px;
+    width: 254px;
+  }
+  
+   .contenfoo {
     margin: 0;
     padding: 0;
-    height: 120px;
+    height: 123px;
     display: flex;
     flex-direction: row;
     align-items: center;
