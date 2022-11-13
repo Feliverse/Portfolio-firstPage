@@ -437,10 +437,14 @@ label {
     margin-top: 15em;
   }
 
+ .pData {
+  display: none;
+}
+
   .gallery {
     display: grid;
-    grid-template-columns: 33% 22% 12% 33%;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-columns: 1.75fr 1.17fr .58fr 1.75fr;
+    grid-template-rows: 2fr 1fr .33fr .66fr 1fr 1fr;
     gap: 0;
     justify-content: stretch;
   }
@@ -449,6 +453,8 @@ label {
     margin: 0;
     width: 100%;
     height: 100%;
+    display: block;
+    
   }
 
   .card4,
@@ -482,27 +488,22 @@ label {
   .card2 {
     width: 100%;
     grid-column: 2 / 5;
-    background-color: #1a2236;
+    grid-row: 1;
+    
   }
 
   .card2 img {
     width: 100%;
-    height: 300px;
+    height: 98%;
     object-fit: cover;
-    object-position: top;
-  }
-
-  .card2 .pData {
-    zoom: 200%;
+    object-position: center;
   }
 
   .card3 {
     display: grid;
     align-content: end;
-  }
-
-  .card3 .pData {
-    display: none;
+    grid-column: 1;
+    grid-row: 2 / 4;
   }
 
   .card3 img {
@@ -512,7 +513,7 @@ label {
 
   .card4 {
     grid-column: 2 / 4;
-    grid-row: 2;
+    grid-row: 2 / 4;
     background-image: url(images/project/image-geometry_2.png);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -520,23 +521,25 @@ label {
   }
 
   .cardx {
-    display: none;
+    grid-column: 4;
+    grid-row: 2;
+    height: 1fr;
   }
 
-  .card5 {
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .card5 img {
+  .cardx img {
     width: 100%;
   }
 
-  .card5 .pData {
-    zoom: 140%;
-    border-top: #fff 3px solid;
+  .card5 {
+    grid-column: 4;
+    grid-row: 3 / 5;
+    height: 150px;
+  }
+
+  .card5 img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .card img {
@@ -545,27 +548,27 @@ label {
 
   .card6 {
     grid-column: 1 / 3;
+    grid-row: 4 / 6;
+   
   }
-
-  .card6 .pData,
-  .card9 .pData {
-    display: none;
-  }
-
+  
   .card6 img {
     width: 100%;
   }
 
   .card7 {
     grid-column: 3 / 5;
+    grid-row: 5 / 6;
     background-image: url(images/project/image-geometry_3.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
+    
   }
 
   .card8 {
     grid-column: 1 / 3;
+    grid-row: 6;
     background-image:
       url(images/project/image-geometry_4.png),
       url(images/project/image-geometry_5.png);
@@ -577,12 +580,33 @@ label {
 
   .card9 {
     grid-column: 3 / 5;
-    grid-row: 4;
+    grid-row: 6;
+    ;
   }
 
   .card9 img {
-    width: 100%;
+    width: 50%;
   }
+
+.card {
+  position:relative;
+}
+
+ 
+
+  .card2 .pData {
+    grid-column: 2 / 5;
+    grid-row: 1
+    display: block;
+    z-index: 10;
+    
+  }
+
+  img:hover .pData {
+    display: block;
+  }
+  
+  
 
   /* about responsive */
   .about {
